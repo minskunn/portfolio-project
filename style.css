@@ -9,8 +9,20 @@ body {
 
 .wrapper-heading {
   background: var(--primary-color);
-  padding: 80px;
+  padding: 85px;
   margin-top: 50px;
+}
+
+.col {
+  padding: 40px;
+}
+
+.examples {
+  justify-content: space-evenly;
+}
+
+.project-title {
+  padding: 15px;
 }
 h1 {
   color: var(--secondary-color);
@@ -27,4 +39,19 @@ h2 {
 h3 {
   color: var(--secondary-color);
   font-weight: lighter;
+  margin-top: 80px;
+}
+
+h4 {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 65px;
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
 }
