@@ -55,3 +55,18 @@ a {
   text-decoration: none;
   color: var(--secondary-color);
 }
+
+.email {
+  font-size: 14px;
+  color: var(--secondary-color);
+  letter-spacing: 2px;
+  margin-top: 40px;
+}
+
+footer {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: var(--secondary-color);
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
