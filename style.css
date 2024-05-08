@@ -1,7 +1,9 @@
 :root {
-  --primary-color: #f0e5da;
-  --secondary-color: #768bc3;
-  --box-color: #e9e1dc;
+  --warm-beige: #f0e5da;
+  --rye-blue: #768bc3;
+  --cold-beige: #e9e1dc;
+  --purple: #b595ef;
+  --green: #495847;
 }
 
 body {
@@ -18,27 +20,27 @@ body {
 }
 
 h1 {
-  color: var(--secondary-color);
+  color: var(--rye-blue);
   font-size: 48px;
   font-weight: lighter;
 }
 
 h2 {
-  color: var(--secondary-color);
+  color: var(--rye-blue);
   font-size: 22px;
   font-weight: lighter;
 }
 
 h3 {
-  color: var(--secondary-color);
+  color: var(--rye-blue);
   font-weight: lighter;
   margin-top: 80px;
   margin-bottom: 20px;
 }
 
 .project-box {
-  color: var(--primary-color);
-  background-color: var(--box-color);
+  color: var(--warm-beige);
+  background-color: var(--rye-blue);
   padding: 28px;
   margin-bottom: 20px;
   border-radius: 5px;
@@ -48,19 +50,19 @@ h3 {
 }
 
 .project-box:hover {
-  color: var(--secondary-color);
-  background-color: var(--primary-color);
+  color: var(--rye-blue);
+  background-color: var(--cold-beige);
   transition: all 200ms ease-in-out;
 }
 
 a {
   text-decoration: none;
-  color: var(--secondary-color);
+  color: var(--rye-blue);
 }
 
 .email {
   font-size: 14px;
-  color: var(--secondary-color);
+  color: var(--rye-blue);
   letter-spacing: 2px;
   margin-top: 20px;
 }
@@ -68,7 +70,7 @@ a {
 footer {
   font-size: 12px;
   letter-spacing: 1px;
-  color: var(--secondary-color);
+  color: var(--rye-blue);
   padding-top: 100px;
   padding-bottom: 40px;
 }
