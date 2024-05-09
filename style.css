@@ -38,6 +38,25 @@ h3 {
   margin-bottom: 20px;
 }
 
+#about-page {
+  background-color: var(--cold-beige);
+}
+
+#about-heading {
+  margin-top: 100px;
+}
+
+.about-me {
+  color: var(--rye-blue);
+  font-size: 20px;
+  line-height: 2;
+}
+
+#get-in-touch {
+  color: var(--purple);
+  font-size: 18px;
+}
+
 .project-box {
   color: var(--warm-beige);
   background-color: var(--rye-blue);
