@@ -38,13 +38,35 @@ h3 {
 
 .wrapper-heading {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 #about-homepage {
   background-color: var(--rye-blue);
   color: white;
   text-align: center;
-  border-radius: 15px;
+  border-radius: 25px;
+  max-width: 700px;
+}
+
+.section-title {
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.read-more {
+  font-size: x-large;
+  color: white;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+.work-examples {
+  padding: 50px;
 }
 
 .about-wrapper {
@@ -90,11 +112,6 @@ h3 {
   color: var(--rye-blue);
   background-color: var(--cold-beige);
   transition: all 200ms ease-in-out;
-}
-
-a {
-  text-decoration: none;
-  color: var(--rye-blue);
 }
 
 .email {
