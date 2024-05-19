@@ -16,6 +16,14 @@ body {
   right: 0;
 }
 
+@media (max-width: 768px) {
+  .navbar {
+    position: relative;
+    top: auto;
+    right: auto;
+  }
+}
+
 #navbarNav a:hover {
   text-decoration: none;
   color: inherit;
