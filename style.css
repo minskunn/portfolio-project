@@ -16,6 +16,13 @@ body {
   right: 0;
 }
 
+#navbarNav a:hover {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 2px solid var(--rye-blue);
+  transition: 200ms ease-in-out;
+}
+
 h1 {
   color: var(--rye-blue);
   font-size: 48px;
@@ -158,11 +165,32 @@ h3 {
   color: transparent;
 }
 
+.contact-details {
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+
+.contact-page-text {
+  color: var(--rye-blue);
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .email {
   font-size: 14px;
   color: var(--rye-blue);
   letter-spacing: 2px;
   margin-top: 20px;
+}
+
+#emoji {
+  font-size: 30px;
+}
+
+#emoji a {
+  text-decoration: none;
 }
 
 footer {
@@ -171,4 +199,16 @@ footer {
   color: var(--rye-blue);
   padding-top: 100px;
   padding-bottom: 40px;
+}
+
+.socials-footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.socials-footer a:hover {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 2px solid var(--rye-blue);
+  transition: 200ms ease-in-out;
 }
